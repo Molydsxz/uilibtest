@@ -2716,7 +2716,7 @@ function library:Watermark(str)
     local size = utility.textlength(str, Drawing.Fonts.Plex, 13).X
 
     local watermark = utility.create("Square", {
-        Size = UDim2.new(0, size + 16, 0, 20),
+        Size = UDim2.new(0, size + 32, 0, 40),
         Position = UDim2.new(0, 16, 0, 16),
         Filled = true,
         Thickness = 0,
